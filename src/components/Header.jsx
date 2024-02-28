@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
   return (
     <div id='header-box'>
-      <img id='logo' src='../assets/nemo-logo.png' />
+      <img id='logo' src='../../public/assets/nemo-logo.png' />
       <div id='header-main'>
         <a
           href='https://github.com/oslabs-beta/nemo'

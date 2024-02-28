@@ -8,7 +8,7 @@ const Team = () => {
       <div id='team-box'>
         <div id='headshot-layout'>
           <h2>Anthony Chatidya</h2>
-          <img id='headshot-img' src='../assets/headshot-anthony.jpg' />
+          <img id='headshot-img' src='../../public/headshot-anthony.jpg' />
           <h3>Software Engineer</h3>
           <div id='team-btn'>
             <button id='linkedIn-btn'></button>
@@ -30,7 +30,7 @@ const Team = () => {
         </div>
         <div id='headshot-layout'>
           <h2>Ari Benkov</h2>
-          <img id='headshot-img' src='../assets/headshot-ari.png' />
+          <img id='headshot-img' src='../../public/headshot-ari.png' />
           <h3>Software Engineer</h3>
           <div id='team-btn'>
             <div>L.I.</div>
@@ -48,7 +48,7 @@ const Team = () => {
         </div>
         <div id='headshot-layout'>
           <h2>Callum Miles</h2>
-          <img id='headshot-img' src='../assets/headshot-callum.jpeg' />
+          <img id='headshot-img' src='../../public/headshot-callum.jpeg' />
           <h3>Software Engineer</h3>
           <div id='team-btn'>
             <div>L.I.</div>
@@ -66,7 +66,7 @@ const Team = () => {
         </div>
         <div id='headshot-layout'>
           <h2>Paul Burger</h2>
-          <img id='headshot-img' src='../assets/headshot-paul.jpg' />
+          <img id='headshot-img' src='../../public/headshot-paul.jpg' />
           <h3>Software Engineer</h3>
           <div id='team-btn'>
             <div>L.I.</div>
@@ -84,7 +84,7 @@ const Team = () => {
         </div>
         <div id='headshot-layout'>
           <h2>Trevor Hilz</h2>
-          <img id='headshot-img' src='../assets/headshot-trevor.jpg' />
+          <img id='headshot-img' src='../../public/headshot-trevor.jpg' />
           <h3>Software Engineer</h3>
           <div id='team-btn'>
             <div>L.I.</div>

@@ -8,7 +8,7 @@ const __dirname = dirname(__filename);
 
 export default {
   mode: process.env.NODE_ENV,
-  entry: './client/index.js',
+  entry: './src/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'build'),
@@ -31,7 +31,9 @@ export default {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
-        use: 'file-loader',
+        use: {
+          'file-loader'
+        },
       },
       {
         test: /\.css$/,
@@ -44,7 +46,7 @@ export default {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './client/index.html',
+      template: './public/index.html',
     }),
   ],
   devServer: {
