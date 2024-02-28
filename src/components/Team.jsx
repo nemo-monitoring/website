@@ -8,16 +8,15 @@ const Team = () => {
       <div id='team-box'>
         <div id='headshot-layout'>
           <h2>Anthony Chatidya</h2>
-          <img id='headshot-img' src='../../public/headshot-anthony.jpg' />
+          <img id='headshot-img' src='../assets/headshot-anthony.jpg' />
           <h3>Software Engineer</h3>
           <div id='team-btn'>
-            <button id='linkedIn-btn'></button>
-            {/* <a
-              style={{ backgroundImage: '../assets/LinkedIn.png' }}
-              id='linkedIn-btn'
-              href='https://www.linkedin.com/in/trevor-hilz/'
+            <a
+              href='https://www.linkedin.com/in/anthony-chaiditya/'
               target='_blank'
-            ></a> */}
+            >
+              <img id='linkedIn-btn' src='../assets/LinkedIn-circle.png' />
+            </a>
             <GitHubButton
               href='https://github.com/AnthonyChaiditya'
               data-color-scheme='no-preference: light; light: light; dark: dark;'
@@ -30,10 +29,15 @@ const Team = () => {
         </div>
         <div id='headshot-layout'>
           <h2>Ari Benkov</h2>
-          <img id='headshot-img' src='../../public/headshot-ari.png' />
+          <img id='headshot-img' src='../assets/headshot-ari.png' />
           <h3>Software Engineer</h3>
           <div id='team-btn'>
-            <div>L.I.</div>
+            <a
+              href='https://www.linkedin.com/in/ari-benkov-787b25139/'
+              target='_blank'
+            >
+              <img id='linkedIn-btn' src='../assets/LinkedIn-circle.png' />
+            </a>
             <div>
               <GitHubButton
                 href='https://github.com/abenkov2'
@@ -48,10 +52,12 @@ const Team = () => {
         </div>
         <div id='headshot-layout'>
           <h2>Callum Miles</h2>
-          <img id='headshot-img' src='../../public/headshot-callum.jpeg' />
+          <img id='headshot-img' src='../assets/headshot-callum.jpeg' />
           <h3>Software Engineer</h3>
           <div id='team-btn'>
-            <div>L.I.</div>
+            <a href='https://www.linkedin.com/in/callum-miles/' target='_blank'>
+              <img id='linkedIn-btn' src='../assets/LinkedIn-circle.png' />
+            </a>
             <div>
               <GitHubButton
                 href='https://github.com/callummiles'
@@ -66,10 +72,12 @@ const Team = () => {
         </div>
         <div id='headshot-layout'>
           <h2>Paul Burger</h2>
-          <img id='headshot-img' src='../../public/headshot-paul.jpg' />
+          <img id='headshot-img' src='../assets/headshot-paul.jpg' />
           <h3>Software Engineer</h3>
           <div id='team-btn'>
-            <div>L.I.</div>
+            <a href='https://www.linkedin.com/in/pvburger/' target='_blank'>
+              <img id='linkedIn-btn' src='../assets/LinkedIn-circle.png' />
+            </a>
             <div>
               <GitHubButton
                 href='https://github.com/pvburger'
@@ -84,10 +92,12 @@ const Team = () => {
         </div>
         <div id='headshot-layout'>
           <h2>Trevor Hilz</h2>
-          <img id='headshot-img' src='../../public/headshot-trevor.jpg' />
+          <img id='headshot-img' src='../assets/headshot-trevor.jpg' />
           <h3>Software Engineer</h3>
           <div id='team-btn'>
-            <div>L.I.</div>
+            <a href='https://www.linkedin.com/in/trevor-hilz/' target='_blank'>
+              <img id='linkedIn-btn' src='../assets/LinkedIn-circle.png' />
+            </a>
             <div>
               <GitHubButton
                 href='https://github.com/Maelstrom116'

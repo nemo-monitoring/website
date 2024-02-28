@@ -2,9 +2,8 @@ import React from 'react';
 
 const Images = () => {
   return (
-    <div>
-      <img id='gif' src='../../public/overview.gif' />
-      {/* <img id='gif' src='overview' /> */}
+    <div id='gif-box'>
+      <img id='gif' src='../assets/overview.gif' />
     </div>
   );
 };

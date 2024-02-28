@@ -31,9 +31,7 @@ export default {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource',
-        use: {
-          'file-loader'
-        },
+        use: 'file-loader',
       },
       {
         test: /\.css$/,
