@@ -1,5 +1,5 @@
 import React from 'react';
-import GitHubButton from '../../app/node_modules/react-github-btn';
+import GitHubButton from 'react-github-btn';
 
 const Team = () => {
   return (
