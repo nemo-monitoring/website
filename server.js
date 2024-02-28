@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 // app.use(express.static(path.join(__dirname, '/client/')));
 
 app.get('/assets/styles.css', (req, res) => {
-  return res.sendFile(path.resolve(__dirname, 'client/assets/styles.css'));
+  return res.sendFile(path.resolve(__dirname, '/client/assets/styles.css'));
 });
 
 // app.get('/assets', (req, res) => {
@@ -21,7 +21,7 @@ app.get('/assets/styles.css', (req, res) => {
 //   });
 
 app.get('/', (req, res) => {
-  return res.sendFile(path.resolve(__dirname, 'client/index.html'));
+  return res.sendFile(path.resolve(__dirname, '/client/index.html'));
 });
 
 app.listen(PORT, () => console.log(`Listening on Port ${PORT}`));
