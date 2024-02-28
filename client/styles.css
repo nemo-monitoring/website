@@ -1,0 +1,107 @@
+body {
+  background-color: #060c18;
+  color: #bcdcfc;
+  background-size: 100%;
+  margin: auto;
+  max-width: 60%;
+  font-family: Roboto;
+}
+
+h1 {
+  color: #e88504;
+}
+
+#logo {
+  width: 20%;
+  height: auto;
+}
+
+#welcome {
+  font-size: 64px;
+}
+
+#header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4em;
+  margin-top: 1em;
+}
+
+#header-main {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+  font-size: 32px;
+  gap: 3em;
+}
+
+#header-btn {
+  font-size: 28px;
+  border-radius: 10px;
+  background-color: #0e162c;
+  color: #e88504;
+  text-decoration: none;
+  padding: 2px 6px 2px 6px;
+  border: 1px solid #e88504;
+}
+
+#team-btn {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+#team-box {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+}
+
+#about-box {
+  font-size: 20px;
+  margin-bottom: 4em;
+}
+
+#about-img-box {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+#header {
+  margin-top: 2em;
+  text-align: center;
+}
+
+#nemo-img {
+  width: 550px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+#headshot-img {
+  width: 140px;
+  border-radius: 50%;
+}
+
+#headshot-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+#linkedIn-btn {
+  background-image: url('./assets/LinkedIn.png');
+  /* width: 100px; */
+}
+
+#gif {
+  border: solid grey 3px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #e88504;
+}
