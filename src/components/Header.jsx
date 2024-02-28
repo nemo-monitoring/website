@@ -1,5 +1,4 @@
 import React from 'react';
-// import nemoLogo from '../../assets/nemo-logo.png';
 
 const Header = () => {
   return (
@@ -7,14 +6,13 @@ const Header = () => {
       {/* <img id='logo' src={nemoLogo} /> */}
       <img id='logo' src='../assets/nemo-logo.png' />
       <div id='header-main'>
-        <a
+        {/* <a
           href='https://github.com/oslabs-beta/nemo'
           target='_blank'
           id='header-btn'
         >
           GitHub
-        </a>
-        {/* <button id='header-btn'>Demo Nemo</button> */}
+        </a> */}
       </div>
     </div>
   );

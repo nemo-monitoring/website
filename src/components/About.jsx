@@ -1,4 +1,5 @@
 import React from 'react';
+import GitHubButton from 'react-github-btn';
 
 const About = () => {
   return (
@@ -18,6 +19,16 @@ const About = () => {
         to the Pods, with a color-coding scheme akin to our chart system,
         designed to indicate usage severity.
       </p>
+      <div>
+        <GitHubButton
+          href='https://github.com/oslabs-beta/nemo'
+          data-color-scheme='no-preference: light; light: light; dark: dark;'
+          data-size='large'
+          aria-label='Follow @buttons on GitHub'
+        >
+          Follow Nemo on Github
+        </GitHubButton>
+      </div>
     </div>
   );
 };
