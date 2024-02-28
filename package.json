@@ -5,9 +5,9 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "NODE_ENV=production node server.js",
-    "build": "NODE_ENV=production webpack",
-    "dev": "NODE_ENV=development webpack serve --open & NODE_ENV=development nodemon server.js"
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "dev": "react-scripts start"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +20,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-github-btn": "^1.4.0",
+    "react-scripts": "^5.0.1",
     "sass-loader": "^14.1.1",
+    "serve": "^14.2.1",
     "style-loader": "^3.3.4"
   },
   "devDependencies": {
@@ -34,5 +36,17 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.2",
     "webpack-hot-middleware": "^2.26.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
