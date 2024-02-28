@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <div style={{ backgroundColor: 'blue', fontSize: '50px' }} id='header-box'>
+    <div id='header-box'>
       <img id='logo' src='../assets/nemo-logo.png' />
       <div id='header-main'>
         <a
