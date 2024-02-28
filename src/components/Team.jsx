@@ -7,7 +7,7 @@ const Team = () => {
       <h1 id='header'>Meet the Team</h1>
       <div id='team-box'>
         <div id='headshot-layout'>
-          <h2>Anthony Chatidya</h2>
+          <h2>Anthony Chaiditya</h2>
           <img id='headshot-img' src='../assets/headshot-anthony.jpg' />
           <h3>Software Engineer</h3>
           <div id='team-btn'>
