@@ -28,12 +28,11 @@ h1 {
   margin-top: 1em;
 }
 
-#header-main {
+#about-use {
   display: flex;
-  flex: 1;
-  justify-content: end;
-  font-size: 32px;
-  gap: 3em;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.5em;
 }
 
 #header-btn {
@@ -44,6 +43,10 @@ h1 {
   text-decoration: none;
   padding: 2px 6px 2px 6px;
   border: 1px solid #e88504;
+}
+
+#use-text {
+  max-width: 56%;
 }
 
 #team-btn {
