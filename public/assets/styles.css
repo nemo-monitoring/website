@@ -28,13 +28,6 @@ h1 {
   margin-top: 1em;
 }
 
-#about-use {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 0.5em;
-}
-
 #header-btn {
   font-size: 28px;
   border-radius: 10px;
@@ -45,8 +38,12 @@ h1 {
   border: 1px solid #e88504;
 }
 
-#use-text {
-  max-width: 56%;
+#about-use {
+  gap: 5em;
+}
+
+#access-btn {
+  margin-top: 1em;
 }
 
 #team-btn {
