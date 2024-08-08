@@ -3,8 +3,9 @@ body {
   color: #bcdcfc;
   background-size: 100%;
   margin: auto;
-  max-width: 60%;
+  max-width: 80%;
   font-family: Roboto;
+  /* border: 2px solid green; */
 }
 
 h1 {
@@ -14,6 +15,7 @@ h1 {
 #logo {
   width: 20%;
   height: auto;
+  /* border: 2px solid yellow; */
 }
 
 #welcome {
@@ -26,10 +28,11 @@ h1 {
   align-items: center;
   margin-bottom: 4em;
   margin-top: 1em;
+  /* border: 2px solid red; */
 }
 
 #header-btn {
-  font-size: 28px;
+  font-size: 26px;
   border-radius: 10px;
   background-color: #0e162c;
   color: #e88504;
@@ -40,6 +43,7 @@ h1 {
 
 #about-use {
   gap: 5em;
+  text-align: justify;
 }
 
 #access-btn {
@@ -54,13 +58,17 @@ h1 {
 
 #team-box {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   flex: 1;
   justify-content: space-around;
+  /* border: 2px solid red; */
 }
 
 #about-box {
-  font-size: 20px;
+  font-size: 26px;
   margin-bottom: 4em;
+  /* border: 2px solid red; */
 }
 
 #about-img-box {
@@ -93,6 +101,8 @@ h1 {
   align-items: center;
   margin-top: 1em;
   margin-bottom: 2em;
+  width: 240px;
+  /* border: 2px solid blue; */
 }
 
 #linkedIn-btn {
@@ -106,10 +116,12 @@ h1 {
 #gif-box {
   display: flex;
   justify-content: center;
+  /* border: 2px solid red; */
 }
 
 #gif {
   border: solid grey 3px;
+  width: 100%;
   border-radius: 10px;
   box-shadow: 6px 5px 60px #d24e02;
 }
